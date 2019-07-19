@@ -1,0 +1,41 @@
+#bookmarklet-outer{
+    border: solid 1px;
+    position: fixed;
+    width: 450px;
+    top:30px;
+    left:0;
+    right:0;
+    margin: auto;
+}
+
+#bookmarklet-outer #add-form,
+#bookmarklet-outer #setting-form{
+    margin: 10px;
+    padding: 10px;
+    border:solid 1px;
+}
+
+#bookmarklet-outer input{
+    display: inline-block;
+    width:120px;
+}
+
+#bookmarklet-outer .record{
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ff7f50;
+    width: 70%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#bookmarklet-outer .button-wrapper{
+    text-align: center;
+}
+
+#bookmarklet-outer .save-button,
+#bookmarklet-outer .id-input,
+#bookmarklet-outer .pw-input{
+    display: none;
+}
